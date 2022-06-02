@@ -1,0 +1,31 @@
+.friends {
+    position: absolute;
+    width: 100px;
+    background: #eee;
+    border-radius: 25px;
+    margin-left: 15px;
+    top: 15px;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.layttos {
+    background: #aaa;
+    height: 60px;
+    width: 60px;
+    font-size: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.layttos:hover {
+    font-size: 0.8rem;
+}

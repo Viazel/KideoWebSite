@@ -1,0 +1,67 @@
+.poll {
+    position: relative;
+    margin: 50px 50%;
+    transform: translateX(-50%);
+    width: 588px;
+    height: auto;
+    background: #272333;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.title {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.poll-text {
+    margin-top: 30px;
+    font-size: 3rem;
+    color: #4754a2;
+    width: 100%;
+}
+
+.poll-buttons {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poll-buttons input {
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    height: 100%;
+    width: 169px;
+    margin-right: 20px;
+    color: #532f6d;
+    cursor: pointer;
+}
+
+.poll-buttons input[value="Oui"]{
+    background: #57F287;
+}
+
+.poll-buttons input[value="IDK"]{
+    background: #cacaca;
+}
+
+.poll-buttons input[value="Non"]{
+    background: #ED4245;
+}
+
+.poll p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 6px 10px;
+    font-size: 15px;
+    color: #d81d1d;
+}

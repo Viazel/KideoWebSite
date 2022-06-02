@@ -1,0 +1,45 @@
+.navbar {
+    position: relative;
+    height: 100px;
+    background: #272333;
+}
+
+.navbar ul {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul > h1 {
+    padding: 15px 40px;
+    margin-left: 15px;
+}
+
+.navbar ul > a {
+    margin-right: 15px;
+}
+
+.nav {
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar a {
+    /*color: #a1f5ff;*/
+    color: #4754a2;
+    font-weight: 600;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    transition: all ease 0.2s;
+}
+
+.navbar a:hover {
+    border: solid 1px #000;
+    background: #57F287;
+}

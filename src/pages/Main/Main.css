@@ -1,0 +1,19 @@
+.news {
+    margin-top: 70px;
+}
+
+.kideo h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.kideo p {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.landing-page {
+    margin: 100px 0 0 0;
+}
